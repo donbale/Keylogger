@@ -6,6 +6,12 @@ Make sure to download the module corresponding to your version of Python (cp36 f
 
 If you get errors regarding pythoncom36.dll and pywintypes36.dll you may need to follow the instructions here: goo.gl/vjxNKV
 
+To have this script launch in the background when a user accesses a program associate the launch.bat file with the relevant shortcut.
+
+To make the launch more descreet change the shortcut to run in minimalized mode via propertties, this prevents the cmdline opening.
+
+Finally as it stands there is no quit function in the code so to stop you have to kill the pyw and pythonw processes.
+
 If you test this out on someone make sure they know you are doing it, because we don't condone malicious use of this program.
 
 Seriously - "Hack to learn, don't learn to Hack"
