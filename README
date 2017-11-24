@@ -2,7 +2,9 @@ Python is a really easy programming language for beginners. What better way to s
 
 This script requires the pyWin32 and pyHook modules which can be downloaded from: goo.gl/DdKLg 
 
-Make sure to download the module corresponding to your version of Python (cp36 for Python 3.6.x) and install via pip before running. 
+Make sure to download the module corresponding to your version of Python (cp36 for Python 3.6.x) and install via pip before running.
+
+If you get errors regarding pythoncom36.dll and pywintypes36.dll you may need to follow the instructions here: goo.gl/vjxNKV
 
 If you test this out on someone make sure they know you are doing it, because we don't condone malicious use of this program.
 

