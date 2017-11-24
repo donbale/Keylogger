@@ -1,6 +1,8 @@
 Python is a really easy programming language for beginners. What better way to showcase it's range of abilities than making a simple keylogger.
 
-This script requires the pyWin32 and pyHook modules which can be downloaded from: goo.gl/DdKLg
+This script requires the pyWin32 and pyHook modules which can be downloaded from: goo.gl/DdKLg 
+
+Make sure to download the module corresponding to your version of Python (cp36 for Python 3.6.x) and install via pip before running. 
 
 If you test this out on someone make sure they know you are doing it, because we don't condone malicious use of this program.
 
